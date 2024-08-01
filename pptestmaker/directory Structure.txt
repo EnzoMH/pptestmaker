@@ -1,0 +1,30 @@
+pptestmaker/
+├── main.py
+├── estm.py
+├── prmk/
+│   ├── __init__.py
+│   ├── prmk.py
+│   ├── section.py
+│   ├── layout.py
+│   └── utils.py
+├── requirements.txt
+├── README.md
+└── templates/
+    ├── index.html
+    ├── proposal.html
+    └── excel.html
+
+main.py: Flask 애플리케이션의 메인 파일.
+estm.py: 엑셀 파일 생성 관련 기능을 담당하는 파일.
+prmk/: 제안서 생성 관련 기능을 담당하는 모듈 디렉토리.
+__init__.py: 패키지 초기화 파일.
+prmk.py: 제안서 생성 기능을 통합하는 파일.
+section.py: 섹션 생성 관련 기능을 담당하는 파일.
+layout.py: 레이아웃 관련 기능을 담당하는 파일.
+utils.py: 유틸리티 함수들을 담고 있는 파일.
+requirements.txt: 필요한 파이썬 패키지들을 나열한 파일.
+README.md: 프로젝트에 대한 설명과 사용법을 담고 있는 파일.
+templates/: HTML 템플릿 파일들이 저장된 디렉토리.
+index.html: 메인 페이지 템플릿.
+proposal.html: 제안서 생성기 페이지 템플릿.
+excel.html: 엑셀 생성기 페이지 템플릿.
